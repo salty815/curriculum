@@ -10,11 +10,12 @@ public class GetPrimeNumber {
             boolean primeFlag = true;
             if(array[arrayIndex] <= 1) { // 配列内数字が1以下なら素数でない
                 primeFlag = false;
-            } 
-            for(int testNumber = 2; testNumber < array[arrayIndex]; testNumber++) { //配列内数字を2から順に割り切れるか検証する 
-                if(array[arrayIndex] % testNumber == 0) { //割り切れるなら素数ではない
-                    primeFlag = false;
-                    break;
+            } else { // 配列内数字が2以上なら
+                for(int testNumber = 2; testNumber < array[arrayIndex]; testNumber++) { //配列内数字を2から順に割り切れるか検証する 
+                    if(array[arrayIndex] % testNumber == 0) { //割り切れるなら素数ではない
+                        primeFlag = false;
+                        break;
+                    }
                 }
             }
             if(primeFlag == true) {
