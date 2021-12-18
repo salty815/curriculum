@@ -20,10 +20,13 @@ public class Study {
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
-    	Fruits fruits = new Fruits();
-    	FruitsConstants fruitsConstants = new FruitsConstants();
+//    	解1: インスタンスを新たに生成して呼び出す
+//    	Fruits fruits = new Fruits();
+//    	FruitsConstants fruitsConstants = new FruitsConstants();
+//    	fruits.printFruits(fruitsConstants.FRUITS_LEMON_04, fruitsConstants.FRUITS_COUNT_20);
     	
-    	fruits.printFruits(fruitsConstants.FRUITS_LEMON_04, fruitsConstants.FRUITS_COUNT_20);
+//    	解2: 静的メソッドをそのまま呼び出す
+    	Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
 
     }
 }
