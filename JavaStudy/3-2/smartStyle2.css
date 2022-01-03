@@ -1,0 +1,34 @@
+/* ウインドウ幅が最大767pxまでの場合に適用(タブレット用) */
+@media screen and (max-width: 767px) {
+    .header {
+        width: 300px;
+    }
+
+    .main-left {
+        width: 100px;
+    }
+
+    .mr-lower{    
+        width: 200px;
+    }
+
+    .mru-right {
+        width: 75px;
+    }
+
+    .mru-left{
+        width: 125px;
+    }
+
+    .footer {
+        width: 300px;
+    }
+}
+
+/* ウインドウ幅が最大479pxまでの場合に適用(スマホ用) */
+@media screen and (max-width: 479px) {
+    #wrapper {
+        width: 150px;
+        display: none;
+    }
+}
