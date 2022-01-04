@@ -1,0 +1,20 @@
+/* ウインドウ幅が最大479pxまでの場合に適用(スマホ用) */
+@media screen and (max-width: 479px) {
+    #wrapper {
+        width: 200px;
+        display: none;
+    }
+
+    .mr-inner-1 {
+        margin: 20px auto 5% 30px;   
+    }
+    
+    .mr-inner-2 {
+        margin: 5% 30px;
+    }
+    
+    .mr-inner-3 {
+        margin: 5% auto auto 30px;
+    }
+
+}
