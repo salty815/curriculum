@@ -27,8 +27,36 @@
 
 /* ウインドウ幅が最大479pxまでの場合に適用(スマホ用) */
 @media screen and (max-width: 479px) {
-    #wrapper {
+
+    .header {
         width: 150px;
-        display: none;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main-left {
+        width: 150px;
+    }
+
+    .mr-upper{    
+        display: block;
+    }
+
+    .mr-lower{    
+        width: 150px;
+    }
+
+    .mru-right {
+        width: 150px;
+    }
+
+    .mru-left{
+        width: 150px;
+    }
+
+    .footer {
+        width: 150px;
     }
 }
