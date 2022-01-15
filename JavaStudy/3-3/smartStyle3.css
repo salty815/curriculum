@@ -3,11 +3,35 @@
 
     .header {
         width: 200px;
+        height: 200px;
     }
 
     .header-inner {
+        width: 60px;
+        height: 160px;
+        position: relative;
+        top: 20px; left: 70px;
         display: block;
     }
+
+    .header-inner-1 {
+        position: relative;
+        top: 10px; left: 0px;
+        margin: 10px;
+    }
+    
+    .header-inner-2 {
+        position: relative;
+        top: 10px; left: 0px;
+        margin: 10px;
+    }
+    
+    .header-inner-3 {
+        position: relative;
+        top: 10px; left: 0px;
+        margin: 10px;
+    }
+    
 
     .main {
         display: block;
@@ -22,15 +46,21 @@
     }
 
     .mr-inner-1 {
-        margin: 20px auto 5% 30px;   
+        position: relative;
+        top: 20px; left: 0px;
+        margin: 20px 30px;   
     }
     
     .mr-inner-2 {
-        margin: 5% 30px;
+        position: relative;
+        top: 20px; left: 0px;
+        margin: 20px 30px;
     }
     
     .mr-inner-3 {
-        margin: 5% auto auto 30px;
+        position: relative;
+        top: 20px; left: 0px;
+        margin: 20px 30px;
     }
 
     .footer {
