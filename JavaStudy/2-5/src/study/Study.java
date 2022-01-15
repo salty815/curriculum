@@ -29,10 +29,6 @@ public class Study {
         shohinList.add(SHOP_SHOHIN_01);
         shohinList.add(SHOP_SHOHIN_02);
         shohinList.add(SHOP_SHOHIN_03);
-        
-//        for (String s: shohinList) {
-//            System.out.println(s);
-//        }
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
@@ -49,7 +45,6 @@ public class Study {
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
         for(Map.Entry<String, Integer> entry : shopMap.entrySet()) {
             System.out.println(entry.getKey() + "=" + entry.getValue() + "円になります！");
-            
         }
     }
 }
