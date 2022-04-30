@@ -8,7 +8,7 @@ function createJuice(fruits) {
     return fruits + "ジュース";
 }
 //⑤関数の実行：「みかん」を渡して、結果を受け取れるように適当な変数（orangeJuice）を用意
-const orangeJuice = "みかん"
+const orangeJuice = createJuice("みかん");
 
 //⑥返ってきた変数を利用して「〇〇が届きました」と出力する
-console.log(createJuice(orangeJuice) + "が届きました");
+console.log(orangeJuice + "が届きました");
